@@ -11,11 +11,11 @@ const gameStart = {
         this.load.image('rock1','images/rock1.png');
         this.load.image('obj1','images/obj1.png');
         this.load.image('obj2','images/obj2.png');
-        this.load.image('obj3','images/obj3.png');
-        this.load.image('obj4','images/obj4.png');
+        this.load.image('obj3','./images/obj3.png');
+        this.load.image('obj4','./images/obj4.png');
         // this.load.image('rock2','../images/rock2.png');
 
-        this.load.spritesheet('turtle','../images/turtle.png', {frameWidth: 223, frameHeight: 323});
+        this.load.spritesheet('turtle','./images/turtle.png', {frameWidth: 223, frameHeight: 323});
     },
     create: function(){
         //資源載入完成，加入遊戲物件及相關設定
